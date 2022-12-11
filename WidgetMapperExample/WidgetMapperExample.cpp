@@ -45,8 +45,6 @@ WidgetMapperExample::WidgetMapperExample(QWidget *parent)
         mapper, &QDataWidgetMapper::toPrevious);
     connect(nextButton, &QPushButton::clicked,
         mapper, &QDataWidgetMapper::toNext);
-    connect(typeComboBox, qOverload<int>(&QComboBox::currentIndexChanged),
-        mapper, &QDataWidgetMapper::setCurrentIndex);
     connect(mapper, &QDataWidgetMapper::currentIndexChanged,
         this, &WidgetMapperExample::updateButtons);
 
