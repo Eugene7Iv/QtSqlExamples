@@ -23,26 +23,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <QtRcc Include="CachedTableExample.qrc">
+    <QtRcc Include="QueryModelExample.qrc">
       <Filter>Resource Files</Filter>
     </QtRcc>
-    <QtUic Include="CachedTableExample.ui">
+    <QtUic Include="QueryModelExample.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtMoc Include="CachedTableExample.h">
-      <Filter>Header Files</Filter>
-    </QtMoc>
-    <ClCompile Include="CachedTableExample.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="EditableSqlModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomSqlModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\connection.h">
+    <QtMoc Include="EditableSqlModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="CustomSqlModel.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\CachedTableExample\connection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CachedTableExample", "Cache
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WidgetMapperExample", "WidgetMapperExample\WidgetMapperExample.vcxproj", "{64F4D2EF-6884-4108-9F24-3E31BA44D377}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QueryModelExample", "QueryModelExample\QueryModelExample.vcxproj", "{27E2B7D6-76D5-44C6-84DE-391B573A2695}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -27,6 +29,10 @@ Global
 		{64F4D2EF-6884-4108-9F24-3E31BA44D377}.Debug|x64.Build.0 = Debug|x64
 		{64F4D2EF-6884-4108-9F24-3E31BA44D377}.Release|x64.ActiveCfg = Release|x64
 		{64F4D2EF-6884-4108-9F24-3E31BA44D377}.Release|x64.Build.0 = Release|x64
+		{27E2B7D6-76D5-44C6-84DE-391B573A2695}.Debug|x64.ActiveCfg = Debug|x64
+		{27E2B7D6-76D5-44C6-84DE-391B573A2695}.Debug|x64.Build.0 = Debug|x64
+		{27E2B7D6-76D5-44C6-84DE-391B573A2695}.Release|x64.ActiveCfg = Release|x64
+		{27E2B7D6-76D5-44C6-84DE-391B573A2695}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

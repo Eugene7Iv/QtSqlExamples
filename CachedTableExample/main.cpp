@@ -1,6 +1,6 @@
 #include "CachedTableExample.h"
 #include <QtWidgets/QApplication>
-#include "connection.h"
+#include "../connection.h"
 
 int main(int argc, char *argv[])
 {
